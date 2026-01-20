@@ -27,4 +27,4 @@
 - Без JavaScript, без библиотек
 
 Демо
-GitHub Pages: (https://github.com/Yaramir777/catalog-page.git)
+GitHub Pages: (https://yaramir777.github.io/catalog-page/)
