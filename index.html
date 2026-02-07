@@ -1,208 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru-RU">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>catalog page</title>
+    <title>Каталог товаров — учебный проект</title>
+    <meta name="description" content="Учебный проект каталога карточек: структура страницы, карточки товаров, навигация и семантическая разметка.">
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
 <body>
 
 
-
-    <main>
-        <section class="catalog">
-            <div class="container catalog__container">
-                <header class="catalog__header">
-                    <div class="catalog__logo">
-                        <img src="https://img.icons8.com/?size=100&id=UohrMT84a2p9&format=png&color=000000"
-                            alt="логотип">
-                    </div>
-                    <h1>Заголовок</h1>
-                    <span>№ товаров</span>
-
-                    <div class="controls"></div>
-
-                </header>
-
-                <div class="catalog__layout">
-
-                    <aside class="catalog__filters">
-                        <form>
-                            <fieldset>
-                                <legend>цена</legend>
-                                <label>
-                                    <input type="checkbox">
-                                    <span>до 10 000</span>
-                                </label>
-                                <label>
-                                    До 5 000 ₽
-                                    <input type="range" min="0" max="5000" step="500">
-                                </label>
-
-                            </fieldset>
-                        </form>
-                    </aside>
-
-                    <section class="catalog__results">
-                        <ul class="catalog__list">
-                            <li class="catalog__item">
-                                <article class="card">
-                                    <a href="#" class="card__image">
-                                        <img src="https://picsum.photos/200/300/" alt="название товара">
-                                    </a>
-
-                                    <h3 class="card__title">
-                                        <a href="#">название товара</a>
-                                    </h3>
-
-                                    <p class="card__price">12 900</p>
-
-                                    <button type="button"> В корзину</button>
-
-                                    <div class="card__badge">
-                                        <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
-                                            alt="бейдж">
-                                    </div>
-                                </article>
-                            </li>
-
-                            <li class="catalog__item">
-                                <article class="card">
-                                    <a href="#" class="card__image">
-                                        <img src="https://picsum.photos/200/300/?" alt="название товара">
-                                    </a>
-
-                                    <h3 class="card__title">
-                                        <a href="#">название товара</a>
-                                    </h3>
-                                    <p class="card__price">12 900</p>
-                                    <button type="button"> В корзину</button>
-                                    <div class="card__badge">
-                                        <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
-                                            alt="бейдж">
-                                    </div>
-                                </article>
-                            </li>
-
-                            <li class="catalog__item">
-                                <article class="card">
-                                    <a href="#" class="card__image">
-                                        <img src="https://picsum.photos/200/300/?=2" alt="название товара">
-                                    </a>
-
-                                    <h3 class="card__title">
-                                        <a href="#">название товара</a>
-                                    </h3>
-                                    <p class="card__price">12 900</p>
-                                    <button type="button"> В корзину</button>
-                                    <div class="card__badge">
-                                        <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
-                                            alt="бейдж">
-                                    </div>
-                                </article>
-                            </li>
-
-                            <li class="catalog__item">
-                                <article class="card">
-                                    <a href="#" class="card__image">
-                                        <img src="https://picsum.photos/200/300/?blur" alt="название товара">
-                                    </a>
-
-                                    <h3 class="card__title">
-                                        <a href="#">название товара</a>
-                                    </h3>
-                                    <p class="card__price">12 900</p>
-                                    <button type="button"> В корзину</button>
-                                    <div class="card__badge">
-                                        <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
-                                            alt="бейдж">
-                                    </div>
-                                </article>
-                            </li>
-
-                            <li class="catalog__item">
-                                <article class="card">
-                                    <a href="#" class="card__image">
-                                        <img src="https://picsum.photos/200/300/?blur" alt="название товара">
-                                    </a>
-
-                                    <h3 class="card__title">
-                                        <a href="#">название товара</a>
-                                    </h3>
-                                    <p class="card__price">12 900</p>
-                                    <button type="button"> В корзину</button>
-                                    <div class="card__badge">
-                                        <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
-                                            alt="бейдж">
-                                    </div>
-                                </article>
-                            </li>
-
-                            <li class="catalog__item">
-                                <article class="card">
-                                    <a href="#" class="card__image">
-                                        <img src="https://picsum.photos/200/300/?blur" alt="название товара">
-                                    </a>
-
-                                    <h3 class="card__title">
-                                        <a href="#">название товара</a>
-                                    </h3>
-                                    <p class="card__price">12 900</p>
-                                    <button type="button"> В корзину</button>
-                                    <div class="card__badge">
-                                        <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
-                                            alt="бейдж">
-                                    </div>
-                                </article>
-                            </li>
-
-                            <li class="catalog__item">
-                                <article class="card">
-                                    <a href="#" class="card__image">
-                                        <img src="https://picsum.photos/200/300/?blur" alt="название товара">
-                                    </a>
-
-                                    <h3 class="card__title">
-                                        <a href="#">название товара</a>
-                                    </h3>
-                                    <p class="card__price">12 900</p>
-                                    <button type="button"> В корзину</button>
-                                    <div class="card__badge">
-                                        <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
-                                            alt="бейдж">
-                                    </div>
-                                </article>
-                            </li>
-
-                            <li class="catalog__item">
-                                <article class="card">
-
-                                    <a href="#" class="card__image">
-                                        <img src="https://picsum.photos/200/300/?blur" alt="название товара">
-                                    </a>
-
-                                    <h3 class="card__title">
-                                        <a href="#">название товара</a>
-                                    </h3>
-                                    <p class="card__price">12 900</p>
-                                    <button type="button"> В корзину</button>
-                                    <div class="card__badge">
-                                        <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
-                                            alt="бейдж">
-                                    </div>
-                                </article>
-                            </li>
-                        </ul>
-
-                        <nav class="pagination"></nav>
-                    </section>
+<main>
+    <section class="catalog">
+        <div class="container catalog__container">
+            <header class="catalog__header">
+                <div class="catalog__logo">
+                    <img src="https://img.icons8.com/?size=100&id=UohrMT84a2p9&format=png&color=000000"
+                        alt="">
                 </div>
-        </section>
-        </div>
-    </main>
+                <h1>Каталог карточек товаров</h1>
+                <p>товаров: 8</p>
+                <div class="controls"></div>
+            </header>
+            <div class="catalog__layout">
+                <aside class="catalog__filters">
+                    <form>
+                        <fieldset>
+                            <legend>цена</legend>
+                            <label>
+                                <input type="checkbox" name="price-up-to-10000">
+                                <span>до 10 000</span>
+                            </label>
+                            <label>
+                                До 5 000 ₽
+                                <input type="range" name="price-max" min="0" max="5000" step="500">
+                            </label>
+                        </fieldset>
+                    </form>
+                </aside>
+                <section class="catalog__results">
+                    <ul class="catalog__list">
+                        <li class="catalog__item">
+                            <article class="card">
+                                <a href="/product.html" class="card__image">
+                                    <img src="https://picsum.photos/200/300/" alt="Изображение товара №1">
+                                </a>
+                                <h3 class="card__title">
+                                    <a href="/product.html">Товар №1</a>
+                                </h3>
+                                <p class="card__price">12 900 ₽</p>
+                                <button type="button"> В корзину</button>
+                                <div class="card__badge">
+                                    <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
+                                        alt="Акционный товар">
+                                </div>
+                            </article>
+                        </li>
+                        <li class="catalog__item">
+                            <article class="card">
+                                <a href="/product.html" class="card__image">
+                                    <img src="https://picsum.photos/200/300/?" alt="Изображение товара №2">
+                                </a>
+                                <h3 class="card__title">
+                                    <a href="/product.html">Товар №2</a>
+                                </h3>
+                                <p class="card__price">12 900 ₽</p>
+                                <button type="button"> В корзину</button>
+                                <div class="card__badge">
+                                    <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
+                                        alt="Акционный товар">
+                                </div>
+                            </article>
+                        </li>
+                        <li class="catalog__item">
+                            <article class="card">
+                                <a href="#" class="card__image">
+                                    <img src="https://picsum.photos/200/300/?=2" alt="Изображение товара №3">
+                                </a>
+                                <h3 class="card__title">
+                                    <a href="#">Товар №3</a>
+                                </h3>
+                                <p class="card__price">12 900 ₽</p>
+                                <button type="button"> В корзину</button>
+                                <div class="card__badge">
+                                    <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
+                                        alt="Акционный товар">
+                                </div>
+                            </article>
+                        </li>
+                        <li class="catalog__item">
+                            <article class="card">
+                                <a href="/product.html" class="card__image">
+                                    <img src="https://picsum.photos/200/300/?blur" alt="Изображение товара №4">
+                                </a>
+                                <h3 class="card__title">
+                                    <a href="/product.html">Товар №4</a>
+                                </h3>
+                                <p class="card__price">12 900 ₽</p>
+                                <button type="button"> В корзину</button>
+                                <div class="card__badge">
+                                    <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
+                                        alt="Акционный товар">
+                                </div>
+                            </article>
+                        </li>
+                        <li class="catalog__item">
+                            <article class="card">
+                                <a href="/product.html" class="card__image">
+                                    <img src="https://picsum.photos/200/300/?blur" alt="Изображение товара №5">
+                                </a>
+                                <h3 class="card__title">
+                                    <a href="/product.html">Товар №5</a>
+                                </h3>
+                                <p class="card__price">12 900 ₽</p>
+                                <button type="button"> В корзину</button>
+                                <div class="card__badge">
+                                    <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
+                                        alt="Акционный товар">
+                                </div>
+                            </article>
+                        </li>
+                        <li class="catalog__item">
+                            <article class="card">
+                                <a href="/product.html" class="card__image">
+                                    <img src="https://picsum.photos/200/300/?blur" alt="Изображение товара №6">
+                                </a>
+                                <h3 class="card__title">
+                                    <a href="/product.html">Товар №6</a>
+                                </h3>
+                                <p class="card__price">12 900 ₽</p>
+                                <button type="button"> В корзину</button>
+                                <div class="card__badge">
+                                    <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
+                                        alt="Акционный товар">
+                                </div>
+                            </article>
+                        </li>
+                        <li class="catalog__item">
+                            <article class="card">
+                                <a href="/product.html" class="card__image">
+                                    <img src="https://picsum.photos/200/300/?blur" alt="Изображение товара №7">
+                                </a>
+                                <h3 class="card__title">
+                                    <a href="/product.html">Товар №7</a>
+                                </h3>
+                                <p class="card__price">12 900 ₽</p>
+                                <button type="button"> В корзину</button>
+                                <div class="card__badge">
+                                    <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
+                                        alt="Акционный товар">
+                                </div>
+                            </article>
+                        </li>
+                        <li class="catalog__item">
+                            <article class="card">
+                                <a href="/product.html" class="card__image">
+                                    <img src="https://picsum.photos/200/300/?blur" alt="Изображение товара №8">
+                                </a>
+                                <h3 class="card__title">
+                                    <a href="/product.html">Товар №8</a>
+                                </h3>
+                                <p class="card__price">12 900 ₽</p>
+                                <button type="button"> В корзину</button>
+                                <div class="card__badge">
+                                    <img src="https://img.icons8.com/?size=50&id=63206&format=png&color=000000"
+                                        alt="Акционный товар">
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <nav class="pagination"></nav>
+                </section>
+            </div>
+    </section>
+    </div>
+</main>
 
 
 </body>
